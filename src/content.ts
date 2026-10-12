@@ -398,6 +398,17 @@ export const portfolio: Record<Language, LocaleContent> = {
         links: [],
         demo: { href: 'https://pme-interim-demo.onrender.com/auth', label: 'Démo live (lecture seule)', open: 'Ouvrir la démo de PME Intérim' },
       },
+      {
+        className: 'project-card',
+        tone: 'coral',
+        featured: '📇 Projet — Démo publique',
+        title: 'Annuaire',
+        description:
+          'Démo publique en lecture seule d’une application d’annuaire : le visiteur peut parcourir les données sans aucun accès en écriture ni modification possible.',
+        tags: ['Annuaire', 'Lecture seule', 'Démo publique'],
+        links: [],
+        demo: { href: 'https://tahaachraf.github.io/eventOnlyGet/', label: 'Démo live (lecture seule)', open: 'Ouvrir la démo de l’Annuaire' },
+      },
     ],
   },
   en: {
@@ -650,6 +661,17 @@ export const portfolio: Record<Language, LocaleContent> = {
         tags: ['Staffing', 'SME', 'Read-only', 'Public demo'],
         links: [],
         demo: { href: 'https://pme-interim-demo.onrender.com/auth', label: 'Live demo (read-only)', open: 'Open the PME Intérim demo' },
+      },
+      {
+        className: 'project-card',
+        tone: 'coral',
+        featured: '📇 Project — Public demo',
+        title: 'Annuaire',
+        description:
+          'A public, read-only demo of a directory application: visitors can browse the data with no write access and no way to modify anything.',
+        tags: ['Directory', 'Read-only', 'Public demo'],
+        links: [],
+        demo: { href: 'https://tahaachraf.github.io/eventOnlyGet/', label: 'Live demo (read-only)', open: 'Open the Directory demo' },
       },
     ],
   },
