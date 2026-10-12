@@ -387,6 +387,17 @@ export const portfolio: Record<Language, LocaleContent> = {
         tags: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript'],
         links: [{ label: '🐙 Voir sur GitHub', href: 'https://github.com/tahaachraf/event' }],
       },
+      {
+        className: 'project-card',
+        tone: 'blue',
+        featured: '🏢 Projet professionnel — Démo publique',
+        title: 'PME Intérim',
+        description:
+          'Démo publique en lecture seule d’une application de gestion d’intérim pour PME : le visiteur peut explorer l’interface sans aucun accès en écriture ni exposition de données réelles.',
+        tags: ['Intérim', 'PME', 'Lecture seule', 'Démo publique'],
+        links: [],
+        demo: { href: 'https://pme-interim-demo.onrender.com/auth', label: 'Démo live (lecture seule)', open: 'Ouvrir la démo de PME Intérim' },
+      },
     ],
   },
   en: {
@@ -628,6 +639,17 @@ export const portfolio: Record<Language, LocaleContent> = {
           'An event management application built in the second year of study. Create, update and delete events through a complete user interface.',
         tags: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript'],
         links: [{ label: '🐙 View on GitHub', href: 'https://github.com/tahaachraf/event' }],
+      },
+      {
+        className: 'project-card',
+        tone: 'blue',
+        featured: '🏢 Professional project — Public demo',
+        title: 'PME Intérim',
+        description:
+          'A public, read-only demo of a temporary-staffing management application for small and medium businesses: visitors can explore the interface with no write access and no exposure of real data.',
+        tags: ['Staffing', 'SME', 'Read-only', 'Public demo'],
+        links: [],
+        demo: { href: 'https://pme-interim-demo.onrender.com/auth', label: 'Live demo (read-only)', open: 'Open the PME Intérim demo' },
       },
     ],
   },
