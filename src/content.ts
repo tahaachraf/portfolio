@@ -379,16 +379,6 @@ export const portfolio: Record<Language, LocaleContent> = {
       },
       {
         className: 'project-card',
-        tone: 'mint',
-        featured: '📅 Projet académique — 2ème année',
-        title: 'Event Management',
-        description:
-          'Application de gestion d’événements développée en 2ème année. Création, modification et suppression d’événements avec interface utilisateur complète.',
-        tags: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript'],
-        links: [{ label: '🐙 Voir sur GitHub', href: 'https://github.com/tahaachraf/event' }],
-      },
-      {
-        className: 'project-card',
         tone: 'blue',
         featured: '🏢 Projet professionnel — Démo publique',
         title: 'PME Intérim',
@@ -401,13 +391,13 @@ export const portfolio: Record<Language, LocaleContent> = {
       {
         className: 'project-card',
         tone: 'coral',
-        featured: '📇 Projet — Démo publique',
-        title: 'Annuaire',
+        featured: '📅 Projet académique — 2ème année',
+        title: 'Events Management',
         description:
-          'Démo publique en lecture seule d’une application d’annuaire : le visiteur peut parcourir les données sans aucun accès en écriture ni modification possible.',
-        tags: ['Annuaire', 'Lecture seule', 'Démo publique'],
+          'Démo publique en lecture seule d’une application de gestion d’événements développée en deuxième année. L’application propose une interface utilisateur complète permettant la création, la modification et la suppression d’événements.',
+        tags: ['Gestion d’événements', 'Lecture seule', 'Démo publique'],
         links: [],
-        demo: { href: 'https://tahaachraf.github.io/eventOnlyGet/', label: 'Démo live (lecture seule)', open: 'Ouvrir la démo de l’Annuaire' },
+        demo: { href: 'https://tahaachraf.github.io/eventOnlyGet/', label: 'Démo live (lecture seule)', open: 'Ouvrir la démo de Events Management' },
       },
     ],
   },
@@ -643,16 +633,6 @@ export const portfolio: Record<Language, LocaleContent> = {
       },
       {
         className: 'project-card',
-        tone: 'mint',
-        featured: '📅 Academic project — Second year',
-        title: 'Event Management',
-        description:
-          'An event management application built in the second year of study. Create, update and delete events through a complete user interface.',
-        tags: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript'],
-        links: [{ label: '🐙 View on GitHub', href: 'https://github.com/tahaachraf/event' }],
-      },
-      {
-        className: 'project-card',
         tone: 'blue',
         featured: '🏢 Professional project — Public demo',
         title: 'PME Intérim',
@@ -665,13 +645,13 @@ export const portfolio: Record<Language, LocaleContent> = {
       {
         className: 'project-card',
         tone: 'coral',
-        featured: '📇 Project — Public demo',
-        title: 'Annuaire',
+        featured: '📅 Academic project — Second year',
+        title: 'Events Management',
         description:
-          'A public, read-only demo of a directory application: visitors can browse the data with no write access and no way to modify anything.',
-        tags: ['Directory', 'Read-only', 'Public demo'],
+          'A public, read-only demo of an event management application built in the second year of study. The application offers a complete user interface for creating, updating and deleting events.',
+        tags: ['Event management', 'Read-only', 'Public demo'],
         links: [],
-        demo: { href: 'https://tahaachraf.github.io/eventOnlyGet/', label: 'Live demo (read-only)', open: 'Open the Directory demo' },
+        demo: { href: 'https://tahaachraf.github.io/eventOnlyGet/', label: 'Live demo (read-only)', open: 'Open the Events Management demo' },
       },
     ],
   },
